@@ -17,6 +17,17 @@
     cursor: pointer;
 }
 
+#headshot {
+    background-image: url("https://i.pinimg.com/originals/c1/52/92/c1529215edcd2c6605d30e312db2349f.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+
 @media(min-width: 1199px) {
     .port-item {
         padding: 3em !important;
